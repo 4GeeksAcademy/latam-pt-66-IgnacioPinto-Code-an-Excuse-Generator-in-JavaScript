@@ -37,4 +37,7 @@ window.onload = function() {
             // Tomar el html y ejecutar la funcion
             document.getElementById("excuse").innerHTML = generateExcuse();
         });
+
+        //execute excuse on load
+        document.getElementById("excuse").innerHTML = generateExcuse();
 };
